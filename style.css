@@ -92,7 +92,24 @@ h2 {
     justify-content: space-between;
     gap: 5px;
     overflow: hidden;
+    position: relative;
+}
 
+.esgotado {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.esgotado-card {
+    opacity: 0.85;
 }
 
 .produto:hover {
