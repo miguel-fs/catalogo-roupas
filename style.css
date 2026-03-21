@@ -19,7 +19,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    background: #ff4d6d;
 }
 
 header img{
@@ -268,4 +268,65 @@ footer p {
     .produto img {
         height: 200px;
     }
+}
+
+.encomendas-btn {
+    background: linear-gradient(135deg, #ff4d6d, #e60073);
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0,3s;
+}
+
+.encomendas-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.destaque {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #ffe4ec, #fff0f5);
+}
+
+.destaque h2 {
+    color: #ff4d6d;
+}
+
+.destaque p {
+    color: #666;
+}
+
+.cta-encomendas {
+    text-align: center;
+    padding: 30px 20px;
+    background: #ff4d6d;
+    color: white;
+}
+
+.cta-encomendas h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.cta-encomendas p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.btn-encomendas {
+    display: inline-block;
+    background: white;
+    color: #ff4d6d;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-encomendas:hover {
+    transform: scale(1.08);
 }
